@@ -5,19 +5,20 @@ body {
   flex-direction: column;
   justify-content: space-between;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white;
   font-size: 25px;
   margin: 0px;
   padding: 0px;
 } 
 
 .header {
+  color: white;
   min-width: 1000px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: #226F54;
-  padding: 15px 200px 200px 200px;
+  padding: 15px 200px 75px 200px;
   gap: 50px;
 }
 
@@ -48,8 +49,12 @@ a {
   flex: 1 0 1000px;
 }
 
+.jar {
+  width: 600px;
+}
+
 img {
-  width: 600px; 
+  width: 500px; 
   border: 1px solid black;
   border-radius: 25px;
 }
@@ -72,4 +77,41 @@ button {
   padding: 10px;
   border-radius: 25px;
   box-shadow: black;
+}
+
+.one {
+  margin-top: 20px;
+}
+
+h2 {
+  font-weight: 600;
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; 
+  flex: 1 0 1000px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.plum {
+  height: 335px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  padding: 20px 0px 0px 0px;
+  margin: 0px;
 }
