@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: #226F54;
-  padding: 15px 200px 75px 200px;
+  padding: 15px 150px 75px 150px;
   gap: 50px;
 }
 
@@ -51,6 +51,7 @@ a {
 
 .jar {
   width: 600px;
+  margin-left: 30px;
 }
 
 img {
@@ -62,6 +63,8 @@ img {
 h1 {
   font-size: 48px;
   font-weight: 900;
+  padding: 0px;
+  margin: 0px;
 }
 
 button {
@@ -80,7 +83,7 @@ button {
 }
 
 .one {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 h2 {
@@ -94,10 +97,9 @@ h2 {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  gap: 50px; 
+  gap: 100px; 
   flex: 1 0 1000px;
-  padding: 0px;
-  margin: 0px;
+  margin-bottom: 100px;
 }
 
 .plum {
@@ -114,4 +116,22 @@ h2 {
 p {
   padding: 20px 0px 0px 0px;
   margin: 0px;
+}
+
+.quote {
+  background-color: #87C38F;
+  color: white;
+  padding: 150px;
+  font-size: 40px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sandra {
+  margin-left: auto;
+  font-weight: 600;
+
 }
