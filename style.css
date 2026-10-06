@@ -119,6 +119,7 @@ p {
 }
 
 .quote {
+  min-width: 1000px;
   background-color: #F4F0BB;
   font-style: italic;
   padding: 150px;
@@ -140,6 +141,7 @@ p {
 }
 
 .action {
+  min-width: 1000px;
   background-color: #87C38F;
   color: white;
   display: flex;
@@ -154,3 +156,14 @@ h3 {
   margin: 0px;
 }
 
+.footer {
+  min-width: 1000px;
+  background-color: #226F54;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+.last {
+  padding: 0px;
+}
