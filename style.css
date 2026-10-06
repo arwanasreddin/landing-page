@@ -119,8 +119,8 @@ p {
 }
 
 .quote {
-  background-color: #87C38F;
-  color: white;
+  background-color: #F4F0BB;
+  font-style: italic;
   padding: 150px;
   font-size: 40px;
   font-weight: 500;
@@ -133,5 +133,24 @@ p {
 .sandra {
   margin-left: auto;
   font-weight: 600;
-
 }
+
+.bigger {
+  
+}
+
+.action {
+  background-color: #87C38F;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  margin: 150px;
+}
+
+h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
