@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: #226F54;
-  padding: 15px 150px 75px 150px;
+  padding: 15px 150px 100px 150px;
   gap: 50px;
 }
 
@@ -26,7 +26,6 @@ body {
   display: flex;
   justify-content:space-between;
   padding-top: 30px;
-  flex-shrink: 1;
 }
 
 a {
@@ -46,7 +45,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex: 1 0 1000px;
+  flex-grow: 1;
 }
 
 .jar {
@@ -122,7 +121,7 @@ p {
   min-width: 1000px;
   background-color: #F4F0BB;
   font-style: italic;
-  padding: 150px;
+  padding: 100px;
   font-size: 40px;
   font-weight: 500;
   display: flex;
@@ -136,19 +135,17 @@ p {
   font-weight: 600;
 }
 
-.bigger {
-  
-}
-
 .action {
-  min-width: 1000px;
+  min-width: 500px;
   background-color: #87C38F;
   color: white;
   display: flex;
+  flex-direction: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 100px;
   margin: 150px;
+  gap: 50px;
 }
 
 h3 {
